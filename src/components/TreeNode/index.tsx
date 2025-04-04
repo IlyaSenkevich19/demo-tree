@@ -59,7 +59,7 @@ const TreeNode: React.FC<ITreeNodeProps> = ({
             showToast(`If you want to delete node ${node.name}, first delete all its children.`);
             return;
         }
-        openModal(EActionTypes.DELETE);
+        openModal(EActionTypes.DELETE, node.name);
     };
 
     const handleModalSubmit = (name: string) => {
@@ -122,7 +122,7 @@ const TreeNode: React.FC<ITreeNodeProps> = ({
     };
 
     return (
-        <div style={{ marginLeft: `${level * 10}px` }}>
+        <div style={{ marginLeft: `${level}rem` }}>
             <div onClick={handleToggleNode} className={styles.treeNode}>
                 <span>{renderIcons()}</span>
                 <span>{node.name}</span>
@@ -143,7 +143,7 @@ const TreeNode: React.FC<ITreeNodeProps> = ({
             {showModal && (
                 <Modal
                     type={showModal.type}
-                    name={showModal.name || node.name}
+                    name={showModal.name}
                     onClose={closeModal}
                     onSubmit={handleModalSubmit}
                 />
