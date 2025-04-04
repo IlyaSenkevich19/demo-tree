@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const xml2js = require("xml2js");
 
-const inputFile = path.join(__dirname, "assets/svg/sprite.icons.svg");
+const inputFile = path.join(__dirname, "public/assets/svg/sprite.icons.svg");
 const outputFile = path.join(__dirname, "src/@types/IconNames.ts");
 
 fs.readFile(inputFile, "utf8", (err, data) => {

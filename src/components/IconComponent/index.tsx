@@ -32,7 +32,7 @@ const IconComponent: FC<IIconProps> = ({
             aria-hidden="true"
             {...svgProps}
         >
-            <use xlinkHref={`../../../assets/svg/sprite.icons.svg#${iconName}`} />
+            <use xlinkHref={`/assets/svg/sprite.icons.svg#${iconName}`} />
         </svg>
     );
 };
