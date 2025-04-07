@@ -6,7 +6,7 @@ import Tree from './components/Tree/index';
 import useFetch from '@hooks/useFetch';
 
 import { treeApi } from './api/api';
-import { EActionTypes, TRequestPayload } from 'src/@types/types';
+import { EActionTypes, TRequestPayload } from './@types/types';
 
 const App = () => {
   const { data, error, isLoading } = useFetch(treeApi.fetchTree, { treeName: VITE_TREE_NAME });

@@ -1,4 +1,4 @@
-import { IApiResponse, TRequestPayload } from "src/@types/types";
+import { IApiResponse, TRequestPayload } from "../@types/types";
 import { apiRequest } from "./baseApi";
 
 export const treeApi = {

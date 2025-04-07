@@ -1,4 +1,4 @@
-import { IApiResponse, TRequestPayload } from "src/@types/types";
+import { IApiResponse, TRequestPayload } from "../@types/types";
 
 import { buildFullUrl } from "./helpers";
 import { showToast } from '@helpers/toast';
