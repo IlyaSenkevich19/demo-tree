@@ -4,7 +4,7 @@ import { VITE_TREE_NAME } from '@app/config';
 import TreeNode from '@components/TreeNode/index';
 import { treeApi } from '@api/api';
 
-import { ITreeNode as TreeNodeType, EActionTypes, TRequestPayload, IApiResponse } from 'src/@types/types';
+import { ITreeNode as TreeNodeType, EActionTypes, TRequestPayload, IApiResponse } from '../../@types/types';
 
 interface ITreeProps {
   treeData: TreeNodeType[];

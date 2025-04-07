@@ -1,4 +1,4 @@
-import { TRequestPayload } from "src/@types/types";
+import { TRequestPayload } from "../@types/types";
 import { VITE_BASE_API_URL } from "@app/config/index.js";
 
 export const buildFullUrl = (endpoint: string, queryParams: TRequestPayload): string => {

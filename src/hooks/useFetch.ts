@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { IApiResponse, ITreeNode, TRequestPayload } from "src/@types/types";
+import { IApiResponse, ITreeNode, TRequestPayload } from "../@types/types";
 
 const useFetch = (callback: (payload: TRequestPayload) => Promise<IApiResponse>, payload: TRequestPayload) => {
     const [data, setData] = useState<ITreeNode[]>([]);

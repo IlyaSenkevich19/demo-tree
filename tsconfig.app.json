@@ -31,9 +31,6 @@
       "@app/*": [
         "src/app/*"
       ],
-      "@types/*": [
-        "src/@types/*"
-      ],
       "@assets/*": [
         "src/assets/*"
       ],

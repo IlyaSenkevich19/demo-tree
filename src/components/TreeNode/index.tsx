@@ -5,7 +5,7 @@ import Modal from '@components/Modal/index';
 import IconComponent from '@components/IconComponent/index';
 import { showToast } from '@helpers/toast';
 
-import { EActionTypes, ITreeNode } from 'src/@types/types';
+import { EActionTypes, ITreeNode } from '../../@types/types';
 import { EIconNames } from 'src/@types/IconNames';
 
 import styles from './TreeNode.module.scss';

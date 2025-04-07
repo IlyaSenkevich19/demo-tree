@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { EActionTypes } from 'src/@types/types';
+import { EActionTypes } from '../../@types/types';
 import styles from './Modal.module.scss';
 
 interface IModalProps {
