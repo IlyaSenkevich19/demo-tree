@@ -1,7 +1,7 @@
 import { IApiResponse, TRequestPayload } from "../@types/types";
 
 import { buildFullUrl } from "./helpers";
-import { showToast } from '@helpers/toast';
+import { showToast } from '../helpers/toast';
 
 export const apiRequest = async (
     endpoint: string,
