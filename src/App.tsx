@@ -1,9 +1,9 @@
 
 import { ToastContainer } from 'react-toastify';
-import { VITE_TREE_NAME } from '@app/config/index.js';
+import { VITE_TREE_NAME } from './app/config/index.js';
 
 import Tree from './components/Tree/index';
-import useFetch from '@hooks/useFetch';
+import useFetch from './hooks/useFetch';
 
 import { treeApi } from './api/api';
 import { EActionTypes, TRequestPayload } from './@types/types';

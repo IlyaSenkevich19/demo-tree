@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { VITE_TREE_NAME } from '@app/config';
+import { VITE_TREE_NAME } from '../../app/config';
 
-import TreeNode from '@components/TreeNode/index';
-import { treeApi } from '@api/api';
+import TreeNode from '../../components/TreeNode/index';
+import { treeApi } from '../../api/api';
 
 import { ITreeNode as TreeNodeType, EActionTypes, TRequestPayload, IApiResponse } from '../../@types/types';
 

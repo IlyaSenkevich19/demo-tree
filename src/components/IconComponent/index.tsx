@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { TIconNames } from 'src/@types/IconNames';
+import { TIconNames } from '../../@types/IconNames';
 
 export interface IIconProps {
     iconName: TIconNames;
